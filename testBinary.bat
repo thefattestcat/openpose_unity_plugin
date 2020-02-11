@@ -29,7 +29,7 @@ echo:
 echo ----- Running OpenPose Demo in video mode -----
 :: Different configuration, choose one according to your situation
 :: With default parameters
-%DEMO% %ARGS%
+%DEMO% %ARGS_LOWRES%
 :: With low resolution (if your GPU has not enough memory)
 ::%DEMO% %ARGS_LOWRES%
 :: With CPU mode (if your GPU has not enough memory)
